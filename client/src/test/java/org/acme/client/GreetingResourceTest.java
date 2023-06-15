@@ -19,7 +19,7 @@ import static org.hamcrest.CoreMatchers.is;
 
 import org.acme.client.api.GreetingResource;
 
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.MediaType;
 
 @QuarkusTest
 @WithKubernetesTestServer
