@@ -1,4 +1,4 @@
-package org.acme;
+package org.acme.client;
 
 import io.fabric8.kubernetes.api.model.Pod;
 import io.fabric8.kubernetes.api.model.PodBuilder;
@@ -17,12 +17,9 @@ import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.CoreMatchers.is;
 
-import org.acme.api.GreetingResource;
+import org.acme.client.api.GreetingResource;
 
-import javax.print.attribute.standard.MediaSize;
 import javax.ws.rs.core.MediaType;
-
-import java.util.List;
 
 @QuarkusTest
 @WithKubernetesTestServer
