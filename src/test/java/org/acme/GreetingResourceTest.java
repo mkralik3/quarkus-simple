@@ -20,7 +20,7 @@ import static org.hamcrest.CoreMatchers.is;
 import org.acme.api.GreetingResource;
 
 import javax.print.attribute.standard.MediaSize;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.MediaType;
 
 import java.util.List;
 
