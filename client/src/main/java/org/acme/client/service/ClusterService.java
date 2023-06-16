@@ -8,7 +8,6 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.fabric8.kubernetes.api.model.PodList;
 import io.fabric8.kubernetes.client.KubernetesClient;
 @ApplicationScoped
 public class ClusterService {

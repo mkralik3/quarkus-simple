@@ -5,7 +5,6 @@ import org.acme.client.service.ClusterService;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -26,10 +25,10 @@ public class GreetingResource {
         return "Hello from RESTEasy Reactive";
     }
 
-    @GET
-    @Path("/{namespace}/pods")
-    @Produces(MediaType.TEXT_PLAIN)
-    public int getNumberOfPodsInDefaultNamespace(@PathParam("namespace") String namespace) {
-        return clusterService.getPods(namespace).size();
-    }
+//    @GET
+//    @Path("/{namespace}/pods")
+//    @Produces(MediaType.TEXT_PLAIN)
+//    public int getNumberOfPodsInDefaultNamespace(@PathParam("namespace") String namespace) {
+//        return clusterService.getPods(namespace).size();
+//    }
 }

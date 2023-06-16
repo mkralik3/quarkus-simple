@@ -15,10 +15,6 @@
 			<groupId>io.quarkus</groupId>
 			<artifactId>quarkus-kubernetes-client</artifactId>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>io.quarkus</groupId>-->
-<!--			<artifactId>quarkus-scheduler</artifactId>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>io.quarkus</groupId>
 			<artifactId>quarkus-arc</artifactId>
@@ -42,26 +38,16 @@
 			<artifactId>rest-assured</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>io.quarkus</groupId>
-			<artifactId>quarkus-test-kubernetes-client</artifactId>
-			<scope>test</scope>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>io.quarkus</groupId>-->
+<!--			<artifactId>quarkus-test-kubernetes-client</artifactId>-->
+<!--			<scope>test</scope>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
 			<scope>test</scope>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>io.quarkiverse.jgit</groupId>-->
-<!--			<artifactId>quarkus-jgit</artifactId>-->
-<!--			<version>3.0.0</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>commons-io</groupId>-->
-<!--			<artifactId>commons-io</artifactId>-->
-<!--		</dependency>-->
-
 	</dependencies>
 	<profiles>
 		<profile>
