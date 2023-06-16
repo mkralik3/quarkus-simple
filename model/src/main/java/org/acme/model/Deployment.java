@@ -18,6 +18,9 @@ public class Deployment {
     private Pod pod;
 
     public Deployment(final Pod customResource, final Object status) {
+        if (customResource == null){
+            throw new IllegalArgumentException("custom resource is null");
+        }
         this.setName(customResource.getMetadata().getName());
         this.setDate(customResource.getMetadata().getCreationTimestamp());
         this.setType(customResource.getKind());
